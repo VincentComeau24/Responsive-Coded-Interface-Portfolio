@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vincent Comeau Student Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Student Portfolio</h1>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Introduction Section -->
+    <section class="hero" id="home">
+
+      <div class="hero-text">
+       <h2>Welcome to My Portfolio</h2>
+
+<p>
+Explore some of my work in filmmaking, web design, and creative media.
+Learn about my skills, featured projects, and the experiences that have
+helped shape my creative journey.
+</p>
+
+<a class="button" href="#projects">View My Projects</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="Images/20230608_112153.jpg"
+          alt="Portrait of Vincent Comeau"
+        >
+      </div>
+
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+
+      <h2>About Me</h2>
+
+<p>
+My name is Vincent Comeau, and I am a film student at the University of Central Florida. I enjoy working on creative projects involving storytelling, video editing, visual design, websites, and games.
+</p>
+
+<p>
+I am especially interested in film, superheroes, video games, and interactive media. My goal is to continue developing my creative and technical skills while making projects that are clear, engaging, and enjoyable for an audience.
+</p>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+      <h2>My Skills</h2>
+
+      <p>
+        These are some of the skills I have developed through my classes and
+        creative projects.
+      </p>
+
+      <ul class="skills-list">
+
+        <li class="skill-card">
+          <h3>Video Editing</h3>
+          <p>
+            Editing footage, organizing clips, adjusting audio, and creating
+            clear visual sequences.
+          </p>
+        </li>
+
+     <li class="skill-card">
+  <h3>Adobe Creative Cloud</h3>
+  <p>
+    Experience using Adobe programs such as Photoshop, Illustrator,
+    InDesign, and Premiere Pro to create graphics, edit videos, and
+    complete creative design projects.
+  </p>
+</li>
+
+        <li class="skill-card">
+          <h3>HTML and CSS</h3>
+          <p>
+            Creating organized web pages and styling clear, responsive
+            interfaces.
+          </p>
+        </li>
+
+        <li class="skill-card">
+          <h3>Visual Design</h3>
+          <p>
+            Planning colors, typography, layouts, and visual hierarchy.
+          </p>
+        </li>
+
+        <li class="skill-card">
+          <h3>Storytelling</h3>
+          <p>
+            Developing ideas, characters, scenes, and visual concepts for
+            creative projects.
+          </p>
+        </li>
+
+        <li class="skill-card">
+  <h3>Working with Others</h3>
+  <p>
+    My part-time job at an aloe factory helped me develop teamwork,
+    communication, and problem-solving skills while working with others to
+    complete daily tasks efficiently.
+  </p>
+</li>
+
+      </ul>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+
+      <h2>Featured Projects</h2>
+
+      <p>
+        This section will include selected examples of my film, design, web,
+        and media projects.
+      </p>
+
+      <div class="project-list">
+
+        <article class="project-card">
+
+          <img
+            src="images/Screenshot 2026-07-11 120430.png"
+            alt="image for project one"
+          >
+
+          <h3>Personal Bio Page</h3>
+
+          <p>
+             A website created using HTML and CSS that introduces who I am,
+    my interests, favorite movies, and future goals.
+          </p>
+
+          <a href="https://github.com/VincentComeau24/Vincent-Bio" target="_blank">View Project</a>
+
+        </article>
+
+        <article class="project-card">
+
+          <img
+            src="images/Screenshot 2026-07-11 124308.png"
+            alt="Placeholder image for project two"
+          >
+
+          <h3>Video Essay for Editing</h3>
+
+          <p>
+            A video essay analyzing how editing techniques create emotion during death
+    scenes in film.
+          </p>
+
+          <a href="https://www.youtube.com/watch?v=Qj7Pl3q6YyU" target="_blank">View Project</a>
+
+        </article>
+
+      </div>
+
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact">
+
+  <h2>Contact Me</h2>
+
+  <p>
+    Thank you for visiting my portfolio. If you have any questions about my
+    work or would like to get in touch, feel free to email me.
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <a href="mailto:comeauww@gmail.com">comeauww@gmail.com</a>
+  </p>
+
+</section>
+
+  </main>
+
+  <footer>
+
+    <p>&copy; 2026 Vincent Comeau. All rights reserved.</p>
+
+  </footer>
+
+</body>
+
+</html>
